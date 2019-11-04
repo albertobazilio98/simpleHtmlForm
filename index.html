@@ -5,7 +5,34 @@
     <link rel="stylesheet" href="app.css">
   </head>
   <body>
-    
+    <form id="form">
+      <label for="name">Nome</label>
+      <input type="text" name="name" id="name">
+      <br/>
+      <label for="phone">Telefone</label>
+      <input type="text" name="phone" id="phone">
+      <br/>
+      <label for="email">email</label>
+      <input type="email" name="email" id="email">
+      <br/>
+      <label for="gender">Gênero</label>
+      <br/>
+      <input type="radio" name="gender" value="masculine" id="masculine">
+      <label for="masculine">Masculino</label>
+      <input type="radio" name="gender" value="feminine" id="feminine">
+      <label for="feminine">Feminino</label>
+      <input type="radio" name="gender" value="other" id="other">
+      <label for="other">Outro</label>
+      <br/>
+      <select name="age">
+        <option value="5-12">5-12</option>
+        <option value="12-18">12-18</option>
+        <option value="18-25">18-25</option>
+        <option value="25+">25+</option>
+      </select>
+
+    </form> 
+    <button onclick="getFormData()">Salvar</button>
   </body>
   <script type="text/javascript" src = "app.js"></script>
 </html>
