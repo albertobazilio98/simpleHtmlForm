@@ -1,34 +1,88 @@
-.container {
-  width: 600px;
-  margin: auto;
-  padding: 50px;
+html, body {
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.container-0 {
+  height: 100%;
+  width: 790px;
+  margin: 0 auto; 
+  padding: 0;
+  background-color: white;
+}
+
+.container-1 {
+  text-align: center;
+  width: 750px;
+  margin: 0 auto;
+  padding: 0px 20px 20px 20px;
+  background-color: white;
+}
+
+
+.container-2 {
+  background: white;
+  padding: 0px 20px 20px 20px;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 20px;
 }
 
 .table {
-  margin-top: 50px;
-  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
+  width: 90%;
+  margin: 5px auto;
+  text-align: center;
 }
 
 .table th {
-  width: 100px;
-  background-color: grey;
+  /*width: 100%;*/
+  padding: 12px;
+  text-align: left;
+  background-color:#1E5B98;
+  color: white;
   border: 1px solid;
 }
 
 td {
   background-color: lightgrey;
+  padding: 5px;
+  word-break: break-word;
+  border: 1px solid #ddd;
 }
 
 .main-label {
-  width: 50px;
+  width: 50%;
   font-weight: bold;
 }
 
 .button {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: bold;
   width: fit-content;
-  margin: 10px;
-  padding: 5px;
-  background-color: grey;
+  padding: 10px;
+  background-color: #DDDDDD;
+  color: #1E5B98;
+  width: 30%;
   border-radius: 5px;
+  border: none;
+  margin: 20px;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: red;
+}
+
+#name, #phone, #email {
+  width: 50%;
+  margin: 20px;
+}
+
+.table tr:nth-child(even){
+  background-color: #f2f2f2;
 }

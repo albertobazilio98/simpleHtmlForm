@@ -4,46 +4,51 @@
     <title>Minicurso Webdev!</title>
     <link rel="stylesheet" href="app.css">
   </head>
-  <body>
-    <div class="container">
-      <form id="form" class="form">
-        <label class="main-label" for="name">Nome</label><br/>
-        <input type="text" name="name" id="name"><br/>
-        <br/>
-        <label class="main-label" for="phone">Telefone</label><br/>
-        <input type="text" name="phone" id="phone"><br/>
-        <br/>
-        <label class="main-label" for="email">email</label><br/>
-        <input type="email" name="email" id="email"><br/>
-        <br/>
-        <label class="main-label" for="gender">Gênero</label><br/>
-        <input type="radio" name="gender" value="M" id="masculine">
-        <label for="masculine">Masculino</label>
-        <input type="radio" name="gender" value="F" id="feminine">
-        <label for="feminine">Feminino</label>
-        <input type="radio" name="gender" value="O" id="other">
-        <label for="other">Outro</label>
-        <br/><br/>
-        <label class="main-label" for="age">Idade</label>
-        <select name="age" id="age">
-          <option value="5-12">5-12</option>
-          <option value="12-18">12-18</option>
-          <option value="18-25">18-25</option>
-          <option value="25+">25+</option>
-        </select><br/>
-        <br/>
-      </form> 
-      <div class="button" onclick="getFormData()">Salvar</div>
-      <table class="table" id="table" border="1">
-        <tr>
-          <th class="name-cell">Nome</th>
-          <th class="phone-cell">Telefone</th>
-          <th class="email-cell">Email</th>
-          <th class="gender-cell">Gênero</th>
-          <th class="age-cell">Idade</th>
-        </tr>
-      </table>
+  <body bgcolor="#1E5B98">
+    <div class="container-0">
+      <div class="container-1">
+        <div class="container-2">
+          <img src="ucdb.jpg" width="70%"/>
+          <form id="form" class="form">
+            <label class="main-label" for="name">Nome</label><br/>
+            <input type="text" name="name" id="name"><br/>
+            <br/>
+            <label class="main-label" for="phone">Telefone</label><br/>
+            <input type="text" name="phone" id="phone"><br/>
+            <br/>
+            <label class="main-label" for="email">Email</label><br/>
+            <input type="email" name="email" id="email"><br/>
+            <br/>
+            <label class="main-label" for="gender">Gênero</label><br/>
+            <input type="radio" name="gender" value="M" id="masculine">
+            <label for="masculine">Masculino</label>
+            <input type="radio" name="gender" value="F" id="feminine">
+            <label for="feminine">Feminino</label>
+            <input type="radio" name="gender" value="O" id="other">
+            <label for="other">Outro</label><br/>
+            <br/>
+            <label class="main-label" for="age">Idade</label>
+            <select name="age" id="age">
+              <option value="5-12">5-12</option>
+              <option value="12-18">12-18</option>
+              <option value="18-25">18-25</option>
+              <option value="25+">25+</option>
+            </select><br/>
+            <br/>
+          </form>
+          <button type="button" class="button" onclick="getFormData()">SALVAR</button>
+        </div>
+        <table class="table" id="table" border="1">
+          <tr>
+            <th class="name-cell">Nome</th>
+            <th class="phone-cell">Telefone</th>
+            <th class="email-cell">Email</th>
+            <th class="gender-cell">Gênero</th>
+            <th class="age-cell">Idade</th>
+          </tr>
+        </table>
+      </div>
     </div>
   </body>
-  <script type="text/javascript" src = "app.js"></script>
+  <script type="text/javascript" src="app.js"></script>
 </html>
