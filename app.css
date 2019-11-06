@@ -1,8 +1,10 @@
 html, body {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   text-align: center;
   padding: 0;
   margin: 0 auto;
   height: 100vh;
+  background-color: #1E5B98;
 }
 
 .container-0 {
@@ -30,8 +32,11 @@ html, body {
   border-radius: 20px;
 }
 
+.image {
+  width: 70%;
+}
+
 .table {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 90%;
   margin: 5px auto;
@@ -48,10 +53,13 @@ html, body {
 }
 
 td {
-  background-color: lightgrey;
   padding: 5px;
   word-break: break-word;
   border: 1px solid #ddd;
+}
+
+.table tr:nth-child(odd){
+  background-color: lightgrey;
 }
 
 .main-label {
@@ -59,8 +67,7 @@ td {
   font-weight: bold;
 }
 
-.button {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+.button {  
   font-weight: bold;
   width: fit-content;
   padding: 10px;
@@ -78,11 +85,7 @@ td {
   background-color: red;
 }
 
-#name, #phone, #email {
+.input {
   width: 50%;
   margin: 20px;
-}
-
-.table tr:nth-child(even){
-  background-color: #f2f2f2;
 }
